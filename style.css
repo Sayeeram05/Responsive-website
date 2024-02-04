@@ -1,0 +1,422 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.logo {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 20px;
+  color: #4e4feb;
+}
+.menus {
+  display: flex;
+  column-gap: 30px;
+  margin-right: 20px;
+}
+.menu a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #071952;
+}
+.menu a:hover {
+  color: rgb(74, 171, 255);
+}
+
+.menus-bar-logo {
+  display: none;
+  margin-right: 20px;
+  color: #071952;
+}
+.menus-bar-logo:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#home,#collection,#nav-home,#nav-collection{
+  color: rgb(74, 171, 255);
+}
+
+
+.side-nav {
+  background-color: #071952;
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  left: -60%;
+  transition: 1s;
+}
+.close {
+  font-weight: bold;
+  text-align: right;
+  color: aliceblue;
+}
+.close:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+.side-menu {
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.side-menu a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.side-menu a:hover {
+  color: rgb(74, 171, 255);
+}
+
+.ktmbike {
+  width: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  column-gap: 60px;
+  margin-bottom: 0%;
+}
+.headercontent button {
+  justify-content: ce;
+  margin-top: 5%;
+  margin-left: 1%;
+  font-size: 125%;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  width: 50%;
+  height: 18%;
+  background-color: #14279b;
+  color: aliceblue;
+  border: 5px #071952 outset;
+}
+.headercontent button:hover {
+  border-style: inset;
+}
+.headercontent h1 {
+  font-size: 250%;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #071952;
+}
+.headercontent p {
+  margin-left: 1%;
+  font-size: 125%;
+  font-weight: bold;
+  color: #071952b9;
+}
+
+.service {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-container1 {
+  font-size: 120%;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #071952;
+}
+.service-container2 {
+  font-size: 125%;
+  font-weight: bold;
+  color: #071952b9;
+}
+.servicebox {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2%;
+}
+.servicebox .box {
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.box h1 {
+  margin: 3%;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.box p {
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: justify;
+}
+
+.newarival {
+  margin: 5%;
+}
+.NAheading {
+  margin-bottom: 3%;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #071952;
+}
+.newbikes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+.newbikes div {
+  flex-basis: 25%;
+  margin-bottom: 3%;
+}
+.newbikes img {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.newbikes div button {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: #071952;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  bottom: 70px;
+}
+.newbikes div button:hover {
+  background-color: rgb(202, 231, 254);
+}
+
+/* Search */
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.search h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #071952;
+}
+.search p {
+  font-weight: bold;
+  text-align: justify;
+}
+.search input {
+  width: 80vw;
+  height: 4vh;
+  border: 5px solid #071952;
+  margin: 10px;
+}
+.search button {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background-color: #14279b;
+  border: 5px #071952 outset;
+  color: aliceblue;
+  text-align: center;
+}
+.search button:hover {
+  border: 5px #071952 inset;
+}
+
+/* Footer */
+.footer {
+  margin: 0;
+  background-color: #071952;
+  color: aliceblue;
+  padding: 50px;
+}
+.footer h1 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+/* ------ Collection page ------ */
+
+/* search */
+.collection-search input {
+  width: 80vw;
+  height: 5vh;
+  border: 5px solid #071952;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.collection-search {
+  display: flex;
+  justify-content: center;
+}
+
+/* images */
+.collection-images {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.collection-images .images {
+  margin: 10px;
+  flex-basis: 20%;
+  margin-bottom: 3%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.collection-images p{
+  text-align: center;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #071952;
+  padding: 5px;
+}
+
+/* ------Contact ------*/
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+.contact .container{
+  padding: 5%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  background-color: #071952;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 50px;
+}
+.contact .container h1{
+  display: flex;
+  color: aliceblue;
+  margin-bottom: 5px;
+}
+.contact .container input{
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.contact .container tr{
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.contact .container textarea{
+  margin-top: 5px;
+  width: 50vw;
+  height: 20vh;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 800px) {
+  .menus-bar-logo {
+    display: block;
+  }
+  .menus {
+    display: none;
+  }
+
+  .headercontent {
+    text-align: center;
+  }
+  .ktmdiv {
+    display: flex;
+    justify-content: center;
+  }
+  .header {
+    flex-direction: column;
+    row-gap: 25px;
+    align-content: center;
+  }
+  .headercontent button {
+    width: 200px;
+    height: 50px;
+  }
+  .service {
+    margin-top: 2%;
+    text-align: center;
+    justify-content: center;
+  }
+  .service-container1 {
+    font-size: 80%;
+    margin-top: 2%;
+  }
+  .service-container2 {
+    font-size: 80%;
+    margin-top: 2%;
+  }
+  .servicebox {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .search h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .search button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    border-width: 3px;
+  }
+}
